@@ -1,0 +1,282 @@
+
+*{
+    list-style: none;/*점 없애기*/
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+    border-collapse: collapse;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 100;
+}
+
+.contentsl{
+    font-size: 20px;
+    font-weight: bold;
+}
+.contents2{
+    height: 34px;
+    width: 208px;
+    font-size: 14px;
+    font-weight: 100;
+    margin: auto;
+    letter-spacing: -1px;
+}
+.contents3{
+    height: 34px;
+    width: 180px;
+    font-size: 14px;
+    font-weight: 100;
+    margin: auto;
+    letter-spacing: -1px;
+}
+.contents4{
+    height: 34px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: -1px;
+    margin-left: 20px;
+    position: relative;
+
+}
+.result{
+    font-size: 24px;
+}
+
+.contents1_bold{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* 위에껀 공통 요소들 */
+
+.intro_bg{
+    background-image:url("img/intro.png");
+    width: 100%;
+    height: 718px;
+}
+.searchArea{
+    width: 300px;
+    height: 40px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    margin-top: 24px;
+}
+.searchArea > form > input{
+    border:none;
+    width:250px;
+    height: 40px;
+    background: rgba(0,0,0,0.0);
+    padding-left: 10px;
+    color: white;
+}
+.searchArea > form > span{
+    width: 50px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.header{
+    display: flex;
+    width:1280px;
+    margin:auto;
+    height: 86px;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    width: calc(1280px - 300px);
+    line-height: 86px;
+
+}
+.nav > li{
+    margin-left: 84px;
+
+}
+.nav > li > a{
+    color: white;
+}
+.intro_text{
+    width: 100%;
+    margin: 231px auto 231px auto;
+    text-align: center;
+}
+.intro_text > h1,
+.intro_text > h4{
+    color: #fff;
+}
+
+.amount{
+    position: relative;
+    top: -66px;
+    display: flex;
+    width: 1280px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    margin: auto;
+
+}
+.amount > li{
+    flex: 1;
+    height: 132px;
+}
+
+.amount > li > div{
+    text-align: center;
+    height: 57px;
+    margin-top: 37px;
+
+}
+.amount > li:not(:last-child) > div{
+    border-right: 1px solid #E1E1E1;
+}
+
+/* main_text0 */
+.main_text0{
+    width: 100%;
+    height: 601px;
+    margin-top: -132px;
+    background: #F1F2F3
+}
+
+.main_text0 > H1{
+    padding-top:116px ;
+    text-align: center;
+    background: #F1F2F3
+}
+
+.main_text0 > .contentsl{
+    text-align: center;
+}
+
+.icon{
+    display: flex;
+    width: 1280px;
+    height: 302px;
+    margin: auto;
+
+}
+
+.icon > li{
+flex: 1;
+background: white;
+height: 302px;
+margin-top: 49px;
+text-align: center;
+
+}
+
+.icon > li > .icon_img{
+    margin-top: 18px;
+}
+
+.icon > li:not(:last-child){
+    margin-right: 20px;
+}
+
+.more{
+    width: 100px;
+    height: 30px;
+    background: rgb(69, 91, 219);
+    color: white;
+    font-size: 12px;
+    margin: 25px auto;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.main_text1{
+    width: 100%;
+    height: 659px;
+    }
+.main_text1 > h1 {
+    text-align:center ;
+    padding-top: 100px;
+}
+.main_text1 > .contents1{
+    text-align: center;
+}
+.service{
+    width: 1280px;
+    display: flex;
+    margin: 49px auto;
+    height: 427px;
+
+}
+
+.service > .contents4 > h2{
+    margin-bottom: 27px;
+    font-size: 50px;
+}
+
+.service.food_photo{
+    width: 640px;
+    height: 426.5px;
+}
+
+.main_text2{
+    width: 100%;
+    height: 458px;
+    background-image:url("img/end.png");
+    position: relative;
+    top: 40px;
+    margin: auto;
+    
+}
+
+.main_text2 > ul{
+    display: flex;
+    padding-top: 138px;
+    height: 418px;
+}
+
+.main_text2 > ul > li{
+    flex: 1;
+    text-align: center;
+}
+.main_text2 > ul > li > div,
+.main_text2 > ul > li > h1{
+    color: white;
+}
+
+.more2{
+    width: 220px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    border: white solid 1px;
+    cursor: pointer;
+    margin: 16px auto;
+}
+
+footer{
+    background: #1F1F1F;
+    display: flex;
+    width: 1903px;
+    height: 244px;
+    position:relative;
+    top:-100px;
+
+
+}
+
+footer > .footer0{
+    color: white;
+    margin: auto;
+    font-size: 48px;
+    flex: 1;
+    text-align: center;
+}
+footer > .footer1{
+    color: white;
+
+    font-size: 20px;
+    flex: 2;
+}
+

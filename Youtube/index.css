@@ -1,0 +1,143 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  height: 10%;
+}
+article {
+  width: 100%;
+}
+footer {
+  width: 100%;
+  margin: 0px 50px;
+}
+a {
+  color: antiquewhite;
+}
+.header_1 > a > i {
+  margin: 10px;
+}
+
+.header_0 {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  color: red;
+  width: 100%;
+  align-items: center;
+}
+
+.header_1 > a {
+  font-size: 30px;
+}
+
+.header_1 {
+  display: flex;
+}
+.video {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  z-index: 4;
+}
+.video_s {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+.video_s iframe,
+.video_s object,
+.video_s embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.main_text {
+  width: 100%;
+  margin: 15px;
+}
+
+.tag_1 {
+  color: royalblue;
+}
+
+.tag_3 {
+  font-size: 5px;
+  color: gray;
+}
+
+.icon_1 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  border-bottom: rgb(202, 202, 202) 1px solid;
+  border-top: rgb(202, 202, 202) 1px solid;
+  padding: 20px;
+  box-shadow: 0px 2px 2px -2px rgb(0, 0, 0);
+}
+.icon_1 > li > i {
+  font-size: 40px;
+}
+.icon_2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.main_text1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: solid 1px rgb(202, 202, 202);
+  box-shadow: 0px 2px 2px -2px rgb(0, 0, 0);
+  align-items: center;
+}
+
+.main_text2 {
+  display: flex;
+}
+.main_text2 > div {
+  padding: 10px;
+}
+.subscrip {
+  width: 150px;
+  height: 20px;
+  background: white;
+  border: solid 1px rgb(202, 202, 202);
+  color: red;
+}
+.upnext {
+  padding: 10px;
+  font-size: 15px;
+}
+
+.footer > li {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 10px;
+}
+.screen {
+  margin-left: 30px;
+}
+.icon_4 {
+  font-size: 80px;
+}
+.icon_5 {
+  font-size: 15px;
+
+  width: 70px;
+}
+
+@media (min-width: 700px) {
+  .esc {
+    display: flex;
+  }
+}
